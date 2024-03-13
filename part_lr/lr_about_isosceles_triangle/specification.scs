@@ -1,8 +1,8 @@
-part_figure_specification
+lr_about_isosceles_triangle_specification
     <- concept_reusable_component_specification;;
 
-part_figure_specification = [*
-part_figure
+lr_about_isosceles_triangle_specification = [*
+lr_about_isosceles_triangle
     <- concept_reusable_component;
     <- concept_atomic_reusable_component;
     <- concept_independent_reusable_component;
@@ -10,9 +10,9 @@ part_figure
     <- concept_reusable_dynamically_installed_component;
     <- concept_reusable_source_code_component;
 
-    => nrel_sc_identifier: [part of planar figures specification](* <- lang_en;; *);
+    => nrel_sc_identifier: [part logical rule about isosceles triangle specification](* <- lang_en;; *);
     => nrel_component_dependencies: ... (* <- empty_set;; *);
 
-    => nrel_component_address: [https://github.com/MksmOrlov/ostis-kb-lib/tree/main/part_figure] (* <- concept_github_url;; *);
+    => nrel_component_address: [https://github.com/MksmOrlov/ostis-kb-lib/tree/main/part_lr/lr_about_isosceles_triangle] (* <- concept_github_url;; *);
     => nrel_installation_method: ... (* <- concept_component_dynamically_installed_method;; *);;
 *];;

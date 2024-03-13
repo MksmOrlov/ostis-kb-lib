@@ -1,8 +1,8 @@
-part_lr_about_relation_specification
+lr_about_relation_specification
     <- concept_reusable_component_specification;;
 
-part_lr_about_relation_specification = [*
-part_lr_about_relation
+lr_about_relation_specification = [*
+lr_about_relation
     <- concept_reusable_component;
     <- concept_atomic_reusable_component;
     <- concept_independent_reusable_component;

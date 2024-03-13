@@ -1,0 +1,22 @@
+@if1 = [* 
+	_x _<- transitive_relation;;
+*];;
+
+@if2 = [* 
+  _x _<- symmetric_relation;;
+*];;
+
+@then = [* 
+	_x _<- order_relation;;
+*];;
+
+...
+-> @if1;
+-> @if2;
+<- nrel_conjaction;
+=> nrel_implication: @then;;
+
+atomic_logical_formula
+-> @if1;
+-> @if2;
+-> @then;;
