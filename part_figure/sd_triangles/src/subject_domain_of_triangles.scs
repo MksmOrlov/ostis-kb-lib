@@ -18,24 +18,15 @@ subject_domain_of_triangles -> rrel_not_maximum_studied_object_class:
 
 
 subject_domain_of_triangles -> rrel_explored_relation:
-	nrel_area;
 	nrel_base;
 	nrel_vertex;
-	nrel_side;
-	nrel_internal_angle;
-	nrel_be_inscribed;
 	nrel_bisectrix_of_triangle;
 	nrel_center_line;
 	nrel_center_of_regular_polygon;
-	nrel_congruence;
-	nrel_height;
 	nrel_median;
 	nrel_middle_perpendicular;
-	nrel_external_angle;
 	nrel_lateral_side;
-	nrel_opposite;
-	nrel_perimeter;
-	nrel_similarity;;
+	nrel_opposite;;
 	
 subject_domain_of_triangles <- subject_domain;;
 

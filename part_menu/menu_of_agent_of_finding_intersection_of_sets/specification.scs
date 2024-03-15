@@ -6,7 +6,7 @@ part_menu_of_agent_of_finding_intersection_of_sets
     <- concept_reusable_component;
     <- concept_atomic_reusable_component;
     <- concept_independent_reusable_component;
-    <- concept_reusable_kb_component;
+    <- concept_reusable_interface_component;
     <- concept_reusable_dynamically_installed_component;
     <- concept_reusable_source_code_component;
 
