@@ -11,6 +11,12 @@ lr_about_relation_specification = [*
     <- concept_reusable_dynamically_installed_component;;
     <- concept_reusable_source_code_component;;
 
+    => nrel_authors: ... (* -> Petrochuk;; *);;
+    => nrel_note: [Компонент содержит логическую формулу для определения транзитивного отношения.] (* <- lang_ru;; *);;
+    //Logic rule about a relation specification contains a logical formula about a transitive relation.
+    => nrel_explanation: [Компонент предоставляет логическую формулу.] (*<- lang_ru;; *);;
+    //Component provides a logical formula.
+
     => nrel_sc_identifier: [part logical rule about relation (lf_symmetric_and_transitive_then_order_rel) specification](* <- lang_en;; *);;
     => nrel_component_dependencies: ... (* <- empty_set;; *);;
 
