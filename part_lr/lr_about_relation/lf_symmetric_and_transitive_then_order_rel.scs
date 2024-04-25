@@ -8,7 +8,6 @@
 *];;
 
 @edge = (@if1 => nrel_implication: @then);;
-@edge <- nrel_conjunction;;
 
 lr_order_relation
 => nrel_main_idtf: [Логическая формула об отношении порядка](* <- lang_ru;; *);
@@ -17,3 +16,4 @@ lr_order_relation
 atomic_logical_formula
 -> @if1;
 -> @then;;
+
