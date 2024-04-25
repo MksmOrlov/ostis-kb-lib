@@ -2,7 +2,7 @@ part_polygons_specification
     <- concept_reusable_component_specification;;
 
 part_polygons_specification = [*
--> rrel_key_sc_element : part_polygons
+-> rrel_key_sc_element : subject_domain_of_polygons
 (*
     <- concept_reusable_component;;
     <- concept_atomic_reusable_component;;

@@ -18,7 +18,7 @@ part_menu_of_logical_inference_specification = [*
     //Component provides a user interface component.
 
     => nrel_main_idtf: [Menu. Agent of logical inference](* <- lang_en;; *);;
-    => nrel_main_idtf: [Меню. Агент логиского вывода](* <- lang_ru;; *);;
+    => nrel_main_idtf: [Меню. Агент логического вывода](* <- lang_ru;; *);;
     => nrel_component_dependencies: ... (* <- empty_set;; *);;
 
     => nrel_component_address: [https://github.com/MksmOrlov/ostis-kb-lib/tree/main/part_menu/menu_of_logical_inference] (* <- concept_github_url;; *);;
