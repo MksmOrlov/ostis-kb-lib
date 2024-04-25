@@ -2,7 +2,7 @@ lr_about_relation_specification
     <- concept_reusable_component_specification;;
 
 lr_about_relation_specification = [*
--> rrel_key_sc_element : lr_about_relation
+-> rrel_key_sc_element : lr_order_relation
 (*
     <- concept_reusable_component;;
     <- concept_atomic_reusable_component;;
