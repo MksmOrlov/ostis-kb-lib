@@ -1,23 +1,19 @@
 @if1 = [* 
 	_x _<- transitive_relation;;
-*];;
-
-@if2 = [* 
-  _x _<- symmetric_relation;;
+    _x _<- symmetric_relation;;
 *];;
 
 @then = [* 
 	_x _<- order_relation;;
 *];;
 
+@edge = (@if1 => nrel_implication: @then);;
+@edge <- nrel_conjunction;;
+
 lr_order_relation
 => nrel_main_idtf: [Логическая формула об отношении порядка](* <- lang_ru;; *);
--> @if1;
--> @if2;
-<- nrel_conjunction;
-=> nrel_implication: @then;;
+-> rrel_main_key_sc_element: @edge;;
 
 atomic_logical_formula
 -> @if1;
--> @if2;
 -> @then;;
