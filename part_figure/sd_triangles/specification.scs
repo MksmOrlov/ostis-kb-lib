@@ -17,7 +17,8 @@ part_triangles_specification = [*
     => nrel_explanation: [Компонент предоставляет понятия и отношения предметной области треугольников.] (*<- lang_ru;; *);;
     //Component provides concepts and relations of triangles subject domain.
 
-    => nrel_sc_identifier: [part of triangles specification](* <- lang_en;; *);;
+    => nrel_main_idtf: [Subject domain of triangles](* <- lang_en;; *);;
+    => nrel_main_idtf: [Предметная область треугольников](* <- lang_ru;; *);;
     => nrel_component_dependencies: ... (* <- empty_set;; *);;
 
     => nrel_component_address: [https://github.com/MksmOrlov/ostis-kb-lib/tree/main/part_figure/sd_triangles] (* <- concept_github_url;; *);;

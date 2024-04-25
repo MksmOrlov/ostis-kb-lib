@@ -17,7 +17,8 @@ lr_about_relation_specification = [*
     => nrel_explanation: [Компонент предоставляет логическую формулу.] (*<- lang_ru;; *);;
     //Component provides a logical formula.
 
-    => nrel_sc_identifier: [part logical rule about relation (lf_symmetric_and_transitive_then_order_rel) specification](* <- lang_en;; *);;
+    => nrel_main_idtf: [Logical formula about symmetric relation](* <- lang_en;; *);;
+    => nrel_main_idtf: [Логическая формула о симметричном отношении](* <- lang_ru;; *);;
     => nrel_component_dependencies: ... (* <- empty_set;; *);;
 
     => nrel_component_address: [https://github.com/MksmOrlov/ostis-kb-lib/tree/main/part_lr/lr_about_relation] (* <- concept_github_url;; *);;

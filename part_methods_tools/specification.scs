@@ -17,7 +17,8 @@ part_methods_tools_specification = [*
     => nrel_explanation: [Компонент предоставляет понятия и отношения предметной области библиотеки компонентов.] (*<- lang_ru;; *);;
     //Component provides description of knowledge development tools.
 
-    => nrel_sc_identifier: [part_methods_tools specification](* <- lang_en;; *);;
+    => nrel_main_idtf: [part_methods_tools specification](* <- lang_en;; *);;
+    => nrel_main_idtf: [Раздел. Методы и средства проектирования и.к.с.](* <- lang_ru;; *);;
     => nrel_component_dependencies: ... (* <- empty_set;; *);;
 
     => nrel_component_address: [https://github.com/MksmOrlov/ostis-kb-lib/tree/main/part_methods_tools] (* <- concept_github_url;; *);;

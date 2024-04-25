@@ -17,7 +17,8 @@ lr_about_isosceles_triangle_specification = [*
     => nrel_explanation: [Компонент предоставляет логическую формулу.] (*<- lang_ru;; *);;
     //Component provides a logical formula.
 
-    => nrel_sc_identifier: [part logical rule about isosceles triangle specification](* <- lang_en;; *);;
+    => nrel_main_idtf: [Logical formula about isosceles triangle](* <- lang_en;; *);;
+    => nrel_main_idtf: [Логическая формула о равнобедренных треугольниках](* <- lang_ru;; *);;
     => nrel_component_dependencies: ... (* <- empty_set;; *);;
 
     => nrel_component_address: [https://github.com/MksmOrlov/ostis-kb-lib/tree/main/part_lr/lr_about_isosceles_triangle] (* <- concept_github_url;; *);;

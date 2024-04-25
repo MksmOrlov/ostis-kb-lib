@@ -17,7 +17,8 @@ part_agent_of_finding_intersection_of_sets_specification = [*
     => nrel_explanation: [Компонент предоставляет агент поиска пересечения между множествами.] (*<- lang_ru;; *);;
     //Component provides an agent that finds an intersection of sets specification
 
-    => nrel_sc_identifier: [part agent of finding intersection of sets specification](* <- lang_en;; *);;
+    => nrel_main_idtf: [Agent of finding intersection of sets](* <- lang_en;; *);;
+    => nrel_main_idtf: [Агент поиска пересечения множества](* <- lang_ru;; *);;
     => nrel_component_dependencies: ... (* <- empty_set;; *);;
 
     => nrel_component_address: [https://github.com/MksmOrlov/ostis-kb-lib/tree/main/part_agents/agent_of_finding_intersection_of_sets] (* <- concept_github_url;; *);;
