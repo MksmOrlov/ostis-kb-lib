@@ -20,7 +20,8 @@ part_lr_specification = [*
     => nrel_sc_identifier: [part_lr specification](* <- lang_en;; *);;
     => nrel_component_dependencies: ... (* -> lr_order_relation;; -> lr_about_isosceles_triangle;; *);;
 
-    => nrel_component_address: [https://github.com/MksmOrlov/ostis-kb-lib/tree/main/part_lr] (* <- concept_github_url;; *);;
+    => nrel_component_address: [https://github.com/MksmOrlov/ostis-kb-lib/tree/main/part_lr/part_lr] (* <- concept_github_url;; *);;
+    => nrel_component_address: [https://github.com/MksmOrlov/ostis-kb-lib/tree/main/part_lr/part_lr] (* <- concept_github_url;; *);;
     => nrel_installation_method: ... (* <- concept_component_dynamically_installed_method;; *);;
     *);;
 *];;
