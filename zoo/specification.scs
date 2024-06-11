@@ -1,0 +1,26 @@
+zoo_specification
+    <- concept_reusable_component_specification;;
+
+zoo_specification = [*
+-> rrel_key_sc_element : zoo
+(*
+    <- concept_reusable_component;;
+    <- concept_reusable_kb_component;;
+    <- concept_atomic_reusable_component;;
+    <- concept_dependent_reusable_component;;
+    <- concept_reusable_source_code_component;;
+    <- concept_platform_independent_reusable_component;;
+    <- concept_reusable_dynamically_installed_component;;
+    <- number_36 (* <- concept_installation_number;; => nrel_sc_identifier: [36];; *);;
+
+    => nrel_main_idtf: [Zoo] (* <- lang_en;; *);;
+    => nrel_main_idtf: [Зоопарк] (* <- lang_ru;; *);;
+
+    => nrel_authors: ... (* -> Orlov;; *);;
+    => nrel_note: [Zoo depends on cat] (* <- lang_en;; *);;
+
+    => nrel_component_dependencies: concept_cat;;
+    => nrel_component_address: [https://github.com/MksmOrlov/ostis-kb-lib/tree/main/zoo] (* <- concept_github_url;; *);;
+    => nrel_installation_method: ... (* <- concept_component_dynamically_installed_method;; *);;
+*);;
+*];;
